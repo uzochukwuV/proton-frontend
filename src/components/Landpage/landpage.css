@@ -1,0 +1,126 @@
+.landpage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.666);
+    background-position: bottom;
+    position: relative;
+    padding-bottom: 100px;
+}
+.landpage-content-wrapper{
+  position: relative;
+}
+.bg-svg{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+}
+.emphasy{
+  font-size: 2.5rem;
+  color: var(--color-variant);
+  display: block;
+  text-transform: capitalize;
+  font-family: 'Poppins';
+}
+.landpage-content-wrapper{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 70px;
+    margin: auto;
+}
+.landpage-text-container{
+    width: 45%;
+    align-self: flex-start;
+    text-align: left;
+    padding-left: 20px;
+}
+.landpage-text-container h1{
+    color:var(--primary-color);
+}
+.landpage-text-container p{
+    color: var(--mild-color);
+    margin-top: 20px;
+}
+.landpage-img-container{
+    width: 45%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 990px) and (min-width: 768px){
+
+  .landpage{
+      justify-content: center;
+      background-position: center;
+      background-color: rgba(0, 0, 0, 0.666);
+  }
+    .landpage-content-wrapper{
+      flex-direction: column-reverse;
+      justify-content: center;
+      padding: 20px 0px;
+    }
+    .landpage-text-container{
+      text-align: center;
+      width: 95%;
+      align-self: center;
+      padding-left: 0px;
+      text-align: left;
+    }
+    .launch-btn{
+      margin: 30px 0px;
+      align-self: flex-start;
+    }
+    .landpage-img-container{
+      margin-bottom: 50px;
+      width: 90%;
+    }
+    .floating-container-img3{
+      right: 10px;
+    }
+}
+@media screen and (max-width: 767px){
+  .landpage{
+    justify-content: center;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.666);
+}
+  .landpage-content-wrapper{
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .landpage-text-container{
+    text-align: center;
+    width: 85%;
+    align-self: center;
+    padding-left: 0px;
+    text-align: left;
+  }
+  .landpage-text-container p{
+    margin: 30px 0px;
+    line-height: 22px;
+  }
+  .landpage-text-container h1{
+    font-weight: 600;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Segoe UI','Poppins','Roboto' Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .launch-btn{
+    margin: 40px 0px 0px 0px;
+  }
+  .emphasy{
+    font-size: 2.1rem;
+    font-family: 'Segoe UI','Poppins','Roboto' Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .bg-svg{
+    display: none;
+  }
+}

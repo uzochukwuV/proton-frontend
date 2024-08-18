@@ -1,0 +1,88 @@
+.review-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(30, 30, 46, 0.81);
+    backdrop-filter: blur(5px);
+    flex-direction: column;
+    padding: 40px 0px;
+}
+.review-header h2{
+    color: white;
+    font-family: Open Sans,lato;
+}
+
+.review-section p {
+    text-transform: capitalize;
+}
+
+.investor-title{
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 8px;
+    font-size: .8rem;
+    font-family: lato,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.investor-name{
+    font-family: montserrat;
+    text-transform: capitalize;
+    letter-spacing: .5px;
+    margin-top: 5px;
+}
+.review-header span{
+    background-color: white;
+}
+.review-head-container h1{
+    color: var(--mild-color);
+}
+
+.review-swiper{
+    width: 100%;
+}
+.review-swiper-slide{
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+}
+.swiper-slide-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.swiper-slide-content svg:first-of-type{
+    font-size: 3rem !important;
+    display: block;
+    color: #999999 !important;
+    margin-right: auto;
+}
+.swiper-slide-content svg:last-of-type{
+    font-size: 3rem !important;
+    display: block;
+    color: #b5b5b5 !important;
+    margin-left: auto;
+}
+.swiper-slide-content p{
+    width: 70%;
+}
+.swiper-slide-content .review-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+@media (max-width: 990px) and (min-width: 768px){
+
+}
+@media screen and (max-width: 767px){
+    .swiper-slide-content p{
+        width: 100%;
+        margin: 10px 0px;
+    }
+}

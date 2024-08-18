@@ -1,0 +1,347 @@
+.about-landpage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../../public/team.jpg);
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 60vh;
+    padding: 0px;
+}
+.widget-container, .tab-content{
+    padding-left: 10px;
+}
+.faq-landpage{
+    background-image: url(../../public/pexels-kampus-production-8428092.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-page-text{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.645);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-page-text h3{
+    font-size: 2.5rem;
+    color: white;
+}
+.distorted-card-wrapper{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 20px;
+    cursor: pointer;
+    transition:all 0.5s ease-out;
+    clip-path: polygon(59% 0, 100% 51%, 100% 100%, 0 100%, 0 0);
+    min-height: 300px;
+}
+.distorted-card-wrapper:hover{
+    background-color: white;
+    color: initial;
+}
+.distorted-card-wrapper h2{
+    font-size: 1rem;
+    text-transform: capitalize;
+    align-self: flex-start;
+    color: var(--secondary-color);
+    margin-bottom: 5px;
+}
+.distorted-card-wrapper h3{
+    font-size: .9rem;
+    align-self: flex-start;
+    font-family: 'Montserrat';
+    text-transform: capitalize;
+    margin: 2px 0px;
+    color: var(--secondary-color);
+}
+.distorted-line{
+    align-self: flex-start;
+    width: 80px;
+    height: 2px;
+    background-color: var(--dark);
+    margin: 8px 0px;
+}
+.distort-container:hover h2{
+    color: var(--dark);
+}
+.distort-container:hover span{
+    color: white;
+}
+.distort-container:hover p{
+    color:  var(--dark-mild);
+}
+.distort-container{
+    padding: 0px;
+    background-color: #f1f1f1;
+}
+.distort-container:hover{
+    background-color: var(--dark-mild);
+    transition: all .2s ease-in-out;
+}
+.distort-container:hover .counter-distorted svg{
+    color: white;
+    transition: all .2s ease-in-out;
+}
+.counter-distorted{
+    top: 8px;
+}
+.counter-distorted svg{
+    font-size: 2.5rem;
+    color: rgb(92, 92, 92);
+}
+.widget-tab{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: flex-end;
+    flex-direction: column;
+}
+.widget-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: flex-start;
+}
+.widget-tab p{
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: var(--secondary-color);
+    cursor: pointer;
+    align-self: flex-start;
+}
+.show-line{
+    transition:all .2s ease-in-out;
+}
+.widget-line{
+    align-self: flex-start;
+    display: block;
+    height: 1.5px;
+    background-color: #ccd2dde5;
+    width: 100%;
+    margin-top: 5px;
+}
+.show-line p{
+    color: var(--color-variant);
+}
+.show-line .widget-line{
+    background-color: var(--color-variant);
+}
+
+.tab-content .tab-text ul {
+    margin-top: 50px;
+}
+
+.bitcoin-card-container{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+.bitcoin-card{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0px;
+    padding: 10px 30px;
+}
+.bitcoin-card-text-container{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-self: flex-start;
+    padding: 10px 10px;
+}
+.bitcoin-card-text-container h2{
+    align-self: flex-start;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.bitcoin-card-text-container p{
+    margin: 15px 0px 40px 0px;
+    text-align: left;
+}
+.flipped{
+    flex-direction: row-reverse;
+}
+.bitcoin-img{
+    width: 50%;
+    height: 340px;
+    object-fit: contain;
+    align-self: flex-start;
+}
+.learn-more {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    align-self: flex-start;
+   }
+   .bitcoin-card-text-container a{
+    align-self: flex-start;
+   }
+   .learn-more {
+    width: 12rem;
+    height: auto;
+   }
+   
+   .learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    /* background: #282936; */
+    background-color: var(--color-variant);
+    border-radius: 1.625rem;
+   }
+   
+   .learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+   
+   .learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+   .learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+   
+   button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   
+   .learn-more:hover .circle {
+    width: 100%;
+   }
+   
+   .learn-more:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+   }
+   
+   .learn-more:hover .button-text {
+    color: #fff;
+   }
+  
+   .policy-container{
+    background-color: white;
+    text-align: left;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   }
+   .policy-text-container{
+    width: 85%;
+    text-align: left;
+    padding: 10px;
+   }
+   .policy-text-container h2{
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 3rem;
+   }
+   .policy-text-container h3{
+    color: var(--color-variant);
+    margin: 20px 0px;
+   }
+   .policy-lanpage{
+    background-image: url(../../public/untitled-design.png);
+    background-position: center;
+   }
+   .bitcoin-lanpage{
+    background-image: url(../../public/1690093-netcoins-istock.jpg);
+    background-position: center;
+   }
+   @media (max-width: 990px) and (min-width: 768px){
+    .widget-container{
+        width: 100%;
+    }
+   }
+   @media screen and (max-width: 767px){
+    .widget-container{
+        width: 100%;
+    }
+    .bitcoin-card-text-container{
+        width: 100%;
+    }
+    .bitcoin-img{
+        width: 100%;
+    }
+    .bitcoin-card{
+        flex-direction: column;
+        width: 100%;
+    }
+    .about-landpage{
+        height: 400px;
+    }
+    .widget-container p{
+        font-size: .9rem;
+    }
+    .asset-content{
+        margin-top: 10px;
+    }
+   }
