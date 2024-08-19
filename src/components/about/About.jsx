@@ -11,9 +11,9 @@ const About = () => {
                 <span className="header-line"></span>
                 <h2>about us</h2>
             </div>
-            <h1 data-aos="fade-up">learn more about Protondex</h1>
+            <h1 data-aos="fade-up">learn more about protonex</h1>
             <p data-aos="fade-up">
-            At Protondex, we believe in building long-term relationships based on trust, transparency, and mutual growth. We take the time to listen and understand your unique financial objectives, tailoring our services to meet your specific needs. Whether you are an experienced investor looking to expand your portfolio or a novice seeking guidance, we are committed to providing personalized attention and crafting strategies that align with your goals.
+            At protonex, we believe in building long-term relationships based on trust, transparency, and mutual growth. We take the time to listen and understand your unique financial objectives, tailoring our services to meet your specific needs. Whether you are an experienced investor looking to expand your portfolio or a novice seeking guidance, we are committed to providing personalized attention and crafting strategies that align with your goals.
 
             </p>
             <button className='launch-btn launch' data-aos="fade-up" onClick={()=>{

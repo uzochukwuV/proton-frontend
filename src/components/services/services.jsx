@@ -11,7 +11,7 @@ const Service = () => {
         {
             id: 1,
             img: './gold.jpg',
-            body: 'At Protondex, we specialize in providing comprehensive services in the field of gold mining, ensuring profitable and sustainable operations.',
+            body: 'At protonex, we specialize in providing comprehensive services in the field of gold mining, ensuring profitable and sustainable operations.',
             header: "gold mining"
         },
         {
@@ -23,7 +23,7 @@ const Service = () => {
         {
             id: 3,
             img: './invest.jpg',
-            body: 'At Protondex we guide you through the dynamic Forex and cryptocurrency markets. We will help you navigate these markets with confidence and potentially achieve favorable returns. ',
+            body: 'At protonex we guide you through the dynamic Forex and cryptocurrency markets. We will help you navigate these markets with confidence and potentially achieve favorable returns. ',
             header: "forex/crypto market"
         }
     ]
