@@ -12,7 +12,7 @@ const Roadmap = () => {
         {
             id:1,
             title:'sign up',
-            content:'To join us at Ocean Volte, you first have to register for a new account. To register, click the SIGNUP button at the top of the page and fill the simple form.',
+            content:'To join us at Protondex, you first have to register for a new account. To register, click the SIGNUP button at the top of the page and fill the simple form.',
             header:'register a new account',
             body:[
             "Free to Register",

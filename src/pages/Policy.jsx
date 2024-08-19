@@ -10,7 +10,7 @@ const Policy = () => {
     <Header />
       <section className='about-landpage policy-lanpage'>
         <div className="about-page-text">
-          <h3>oceanVolte policies</h3>
+          <h3>Protondex policies</h3>
           <span className="small-thin-line"></span>
         </div>
       </section>

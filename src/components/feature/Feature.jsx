@@ -18,7 +18,7 @@ const Feature = () => {
             </div>
             <h1 data-aos="fade-up">Our features and benefits</h1>
             <p data-aos="fade-up">
-                 The Ocean Volte ecosystem is based on blockchain and we solved issues of current and future
+                 The Protondex ecosystem is based on blockchain and we solved issues of current and future
             </p>
         </div>
         <div className="feature-card-container" data-aos="fade-up">

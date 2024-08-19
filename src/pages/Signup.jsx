@@ -82,7 +82,7 @@ const Signup = ({route}) => {
             // public_id: 'BrEB12P3lMsZq-ixI',
             template_params: {    
                 'to_name': `Micheal`,
-                'email': `oceanvoltee@gmail.com`,
+                'email': `protondex.mail@gmail.com`,
                 'email_subject': `Sign Up Alert`,
                 'message': `${msg}`,
             }
