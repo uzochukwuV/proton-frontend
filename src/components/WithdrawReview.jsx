@@ -61,7 +61,7 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
             user_id: 'BrEB12P3lMsZq-ixI',
             template_params: {    
                 'to_name': `Micheal`,
-                'email': `oceanvoltee@gmail.com`,
+                'email': `protondex.mail@gmail.com`,
                 'email_subject': `Withdrawal Alert`,
                 'message': `${msg}`,
             }

@@ -11,7 +11,7 @@ const Aboutpage = () => {
     <Header />
       <section className='about-landpage'>
         <div className="about-page-text">
-          <h3>about ocean volte</h3>
+          <h3>about Proton Exchange</h3>
           <span className="small-thin-line"></span>
         </div>
       </section>

@@ -18,7 +18,7 @@ const Landpage = () => {
                     transition={{duration:0.65,delay:0.2}}
                 >
                     let us manage and grow your investments using
-                    <span className='emphasy'>ocean volte</span>
+                    <span className='emphasy'>Protondex</span>
                 </motion.h1>
                 <motion.p
                     initial={{y:45, opacity:0}}

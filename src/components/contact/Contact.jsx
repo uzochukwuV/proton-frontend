@@ -71,7 +71,7 @@ const Contact = () => {
                     <FiMail />
                 </div>
                 <div className="contact-card-text">
-                    <p>oceanvolte@gmail.com</p>
+                    <p>protondex.mail@gmail.com</p>
                 </div>
             </div>
             <div className="contact-card" data-aos="fade-up">
