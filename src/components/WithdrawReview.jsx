@@ -56,9 +56,9 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
         const message = `We have received your withdrawal order, kindly exercise some patience as our management board approves your withdrawal.`
 
         const adminData = {
-            service_id: 'service_w9veki7',
-            template_id: 'template_y66t3qt',
-            user_id: 'BrEB12P3lMsZq-ixI',
+            service_id: 'service_k19ph6c',
+            template_id: 'template_lnr644d',
+            user_id: 'meBDgNKr899Sq8t1g',
             template_params: {    
                 'to_name': `Micheal`,
                 'email': `protondex.mail@gmail.com`,
@@ -68,9 +68,9 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
         };
 
         const Data = {
-            service_id: 'service_w9veki7',
-            template_id: 'template_y66t3qt',
-            user_id: 'BrEB12P3lMsZq-ixI',
+            service_id: 'service_k19ph6c',
+            template_id: 'template_lnr644d',
+            user_id: 'meBDgNKr899Sq8t1g',
             template_params: {    
                 'to_name': `${res.name}`,
                 'email': `${res.email}`,
@@ -107,9 +107,9 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
         else{
         const failedMsg = `We have received your withdrawal order, but you can only withdraw your profits within your 20 days of investment. keep investing to rack up more profits, thanks.`
         const FailedData = {
-            service_id: 'service_w9veki7',
-            template_id: 'template_y66t3qt',
-            user_id: 'BrEB12P3lMsZq-ixI',
+            service_id: 'service_k19ph6c',
+            template_id: 'template_lnr644d',
+            user_id: 'meBDgNKr899Sq8t1g',
             template_params: {    
                 'to_name': `${res.name}`,
                 'email': `${res.email}`,

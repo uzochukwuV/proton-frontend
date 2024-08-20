@@ -29,7 +29,9 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_1vjbil8', 'template_4vvpefj', form.current, 'tSqoidag1E1HqNwYy')
+      
+
+        emailjs.sendForm('service_k19ph6c', 'template_rctaiui', form.current, 'meBDgNKr899Sq8t1g')
         .then((result) => {
             console.log(result.text);
             Toast.fire({

@@ -77,19 +77,19 @@ const Deposit = ({amount,active,close,route}) => {
 
         const msg = `A user with the name.${res.name}, just deposited $${amount} USD. please confirm, he paid into to your ${Active.method} wallet.`;
         const message = `You have successfully placed a deposit order, kindly exercise some patience as we verify your deposit. Your account will automatically be credited with $${amount} USD after verification.`
-        let messageToAdmin = {
+        // let messageToAdmin = {
             
-            html: 'Embedded image: <img src="cid:unique@nodemailer.com"/>',
-            attachments: [{
-                filename: 'image.png',
-                path: '/path/to/file',
-                cid: 'unique@nodemailer.com' //same cid value as in the html img src
-            }]
-        }
+        //     html: 'Embedded image: <img src="cid:unique@nodemailer.com"/>',
+        //     attachments: [{
+        //         filename: 'image.png',
+        //         path: '/path/to/file',
+        //         cid: 'unique@nodemailer.com' //same cid value as in the html img src
+        //     }]
+        // }
         const adminData = {
-            service_id: 'service_w9veki7',
-            template_id: 'template_y66t3qt',
-            user_id: 'BrEB12P3lMsZq-ixI',
+            service_id: 'service_k19ph6c',
+            template_id: 'template_lnr644d',
+            user_id: 'meBDgNKr899Sq8t1g',
             template_params: {    
                 'to_name': `Proton`,
                 'email': `protondex.mail@gmail.com`,
@@ -99,9 +99,9 @@ const Deposit = ({amount,active,close,route}) => {
         };
 
         const Data = {
-            service_id: 'service_w9veki7',
-            template_id: 'template_y66t3qt',
-            user_id: 'BrEB12P3lMsZq-ixI',
+            service_id: 'service_k19ph6c',
+            template_id: 'template_lnr644d',
+            user_id: 'meBDgNKr899Sq8t1g',
             template_params: {    
                 'to_name': `${res.name}`,
                 'email': `${res.email}`,
@@ -121,7 +121,7 @@ const Deposit = ({amount,active,close,route}) => {
           const res = await req.json()
           console.log(res)
         }
-        //   sendMail()
+          sendMail()
                  
         const sendUserMail= async()=>{
             const req = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
@@ -134,7 +134,7 @@ const Deposit = ({amount,active,close,route}) => {
           const res = await req.json()
           console.log(res)
         }
-        // sendUserMail()
+        sendUserMail()
 
             setLoader(false)
             Toast.fire({
