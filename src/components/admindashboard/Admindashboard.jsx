@@ -121,7 +121,7 @@ const Admindashboard = ({route}) => {
   
   useEffect(()=>{
     setLoader(false)  
-      // fetchUsers()
+      fetchUsers()
   },[])
 
 
