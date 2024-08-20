@@ -49,14 +49,15 @@ const Admindashboard = ({route}) => {
     const message = `Your account has been credited with $${res.funded} USD. you can proceed to choosing your preferred investment plan to start earning. Thanks.`
     
     const Data = {
-      service_id: 'service_w9veki7',
-      template_id: 'template_y66t3qt',
-      user_id: 'BrEB12P3lMsZq-ixI',
+      service_id: 'service_k19ph6c',
+      template_id: 'template_lnr644d',
+      user_id: 'meBDgNKr899Sq8t1g',
       template_params: {    
           'to_name': `${res.firstname}`,
           'email': `${res.email}`,
           'email_subject': `Successful Deposit`,
           'message': `${message}`,
+          'from_name': "Proton Exchange"
       }
   };
 
@@ -71,7 +72,7 @@ const Admindashboard = ({route}) => {
     const res = await req.json()
     console.log(res)
   }
-    // sendMail()
+    sendMail()
 
     Toast.fire({
       icon: 'success',
