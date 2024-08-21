@@ -149,7 +149,7 @@ function App() {
             <Route path='/users/:id/verify/:token' element={<VerifyEmail route={route}/>}/>
             <Route path='/withdrawlogs' element={<WithdrawalLogs route={route}/>}/>
             <Route path='/checkout' element={<Checkout route={route}/>}/>
-            <Route path='/admin' element={<Admindashboard route={route}/>}/>
+            <Route path='/api/admin/me' element={<Admindashboard route={route}/>}/>
             <Route path='/deposit' element={<Deposit route={route}/>}/>
             <Route path='/about' element={<Aboutpage />}/>
             <Route path='/faq' element={<Faq />}/>
