@@ -100,8 +100,8 @@ function App() {
               title: `An Investor from ${myArray[Math.floor(Math.random() * num)].country} just withdrew ${myArray[Math.floor(Math.random() * num)].amount}...`
             })
     }, 600000);
-    // const route = 'https://protondex.vercel.app';
-    const route = 'http://localhost:5000';
+    const route = 'https://protondex.vercel.app';
+    // const route = 'http://localhost:5000';
   return (
     <>
     <div className="iframe-container">
