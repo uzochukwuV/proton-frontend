@@ -13,8 +13,8 @@ const Plan = () => {
     const [withdrawMethods,setWithdrawalMethods] = useState([
       {
         id:1,
-        min:'$50',
-        max:'$499',
+        min:'$100',
+        max:'$999',
         type:'basic ',
         percent:'4',
         duration:'24 hours',
@@ -22,8 +22,8 @@ const Plan = () => {
       },
       {
         id:2,
-        min:'$500',
-        max:'$2499',
+        min:'$1000',
+        max:'$4999',
         type:'forex/crypto ',
         percent:'8',
         duration:'48 hours',
@@ -31,8 +31,8 @@ const Plan = () => {
       },
       {
         id:3,
-        min:'$2500',
-        max:'$4999',
+        min:'$5000',
+        max:'$9000',
         type:'real estate ',
         percent:'14',
         duration:'72 hours',
@@ -40,8 +40,8 @@ const Plan = () => {
       },
       {
         id:4,
-        min:'$5000',
-        max:'$9999',
+        min:'$10000',
+        max:'$49999',
         type:'agro-techonology ',
         percent:'18',
         duration:'5 day(s)',
@@ -49,11 +49,11 @@ const Plan = () => {
       },
       {
         id:5,
-        min:'$10000',
-        max:'$49999',
+        min:'$50000',
+        max:'$100000',
         type:'stock ',
         percent:'24',
-        duration:'15 day(s)',
+        duration:'30 day(s)',
         ref: '10%'
       },
       {

