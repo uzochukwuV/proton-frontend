@@ -17,14 +17,14 @@ const Plan = () => {
         max:'$999',
         type:'basic ',
         percent:'4',
-        duration:'24 hours',
+        duration:'24 hours (tier 1)',
         ref: '10%'
       },
       {
         id:2,
         min:'$1000',
         max:'$4999',
-        type:'forex/crypto ',
+        type:'forex/crypto (tier 1)',
         percent:'8',
         duration:'48 hours',
         ref: '10%'
@@ -32,28 +32,28 @@ const Plan = () => {
       {
         id:3,
         min:'$5000',
-        max:'$9000',
-        type:'real estate ',
+        max:'$20000',
+        type:'stock (tier 1)',
         percent:'14',
-        duration:'72 hours',
+        duration:'21 days',
         ref: '10%'
       },
       {
         id:4,
         min:'$10000',
         max:'$49999',
-        type:'agro-techonology ',
+        type:'agro-techonology (tier 1)',
         percent:'18',
-        duration:'5 day(s)',
+        duration:'60 day(s)',
         ref: '10%'
       },
       {
         id:5,
         min:'$50000',
-        max:'$100000',
-        type:'stock ',
-        percent:'24',
-        duration:'30 day(s)',
+        max:'$500000',
+        type:'real estate (tier 1)',
+        percent:'32',
+        duration:'120 day(s)',
         ref: '10%'
       },
       {
@@ -62,7 +62,7 @@ const Plan = () => {
         max: 'Unlimited',
         type:'Gold',
         percent:'30',
-        duration:'30 day(s)',
+        duration:'365 days',
         ref: '10%'
       },
       ])
