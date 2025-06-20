@@ -30,7 +30,7 @@ const Userdashboardfundaccount = ({route}) => {
       max:1000,
       image:'/btc.png',
       method:'BTC',
-      wallet:'bc1qt5h9sn3y25ynwnxfs4qhy40n53knf6dqmjc389',
+      wallet:'bc1qx3jdyunp2g75tk09mfgny5mnfxtwr2ghncz6v7',
     },
     {
       id:2,
@@ -46,8 +46,9 @@ const Userdashboardfundaccount = ({route}) => {
       max:1000,
       image:'/tron.png',
       method:'USDT (tether)',
-      wallet:'0xfDc8b4D093fef5B3Fa18D4bFddb7F667B46903DC'
+      wallet:'0xe2b3614dCdDf82099D9b7Df04da16b00dC44Bb27'
     },
+    
   ])
 
   // sweel alert code 
