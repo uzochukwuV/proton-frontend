@@ -122,7 +122,7 @@ const Signup = ({route}) => {
 
         Toast.fire({
         icon: 'success',
-        title: 'verification link sent to your email'
+        title: 'Registration Completed'
         })
         setConfirmPassword('')
         setEmail('')
@@ -131,6 +131,7 @@ const Signup = ({route}) => {
         setPassword('')
         setReferralLink('')
         setPhone('')
+          navigate("/login")
       }
          else{ Swal.fire({
           title: 'warning',
